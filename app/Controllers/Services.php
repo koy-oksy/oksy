@@ -9,9 +9,9 @@ class Services extends BaseController
         helper('html');
         $data = [
             'meta' => [
-                'title' => 'Наш сервис',
-                'description' => 'Аренда катамарана Lagoon 380 в Киеве, организация отдыха, корпоративы, девичники, свадьбы, фотосессии',
-                'tags' => 'отдых, корпоративы, девичники, свадьбы, фотосессии, катамаран, яхта, Киев, река',
+                'title' => 'Послуги',
+                'description' => '',
+                'tags' => '',
             ]
         ];
         return view('services', $data);

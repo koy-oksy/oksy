@@ -1,24 +1,41 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	<div class="container-fluid">
-		<img src="<?php echo base_url('images/logo2.png');  ?>" />
-		<a class="navbar-brand " href="<?php echo site_url('about') ?>">Sailing adventure</a>
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNavDropdown">
-			<ul class="navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link" href="<?php echo site_url('about') ?>">Главная </a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="<?php echo site_url('services') ?>">
-						Наши услуги</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="<?php echo site_url('photo') ?>">
-						Фото</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-</nav>
+<div class="site-wrap" id="home-section">
+
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div>
+    <header class="site-navbar light site-navbar-target" role="banner">
+
+        <div class="container">
+            <div class="row align-items-center position-relative">
+
+                <div class="col-3">
+                    <div class="site-logo">
+                        <a href="<?php echo site_url('home') ?>"><strong>Оksy</strong></a>
+                    </div>
+                </div>
+
+                <div class="col-9  text-right">
+
+                    <span class="d-inline-block d-lg-none"><a href="#" class=" site-menu-toggle js-menu-toggle py-5 "><span class="icon-menu h3 text-black"></span></a></span>
+
+                    <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
+                        <ul class="site-menu main-menu js-clone-nav ml-auto ">
+                            <li><a href="<?php echo site_url('home') ?>">Головна</a></li>
+                            <li><a href="<?php echo site_url('services') ?>">Послуги</a></li>
+                            <li><a href="<?php echo site_url('portfolio') ?>">Портфоліо</a></li>
+                            <li><a href="<?php echo site_url('contact') ?>">Контакти</a></li>
+                            <li><a href="<?php echo site_url('blog') ?>">Блог</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+
+            </div>
+        </div>
+
+    </header>
