@@ -1,0 +1,4 @@
+User-agent: * 
+Disallow: 
+Host: sailing-adventure.com.ua
+Sitemap: https://sailing-adventure.com.ua/sitemap.xml
