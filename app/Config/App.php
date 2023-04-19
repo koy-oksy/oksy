@@ -23,8 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL =  'http://localhost/oksy/public/';
-
+    public $baseURL =  'http://localhost/lagoon/public/';
 
     /**
      * --------------------------------------------------------------------------

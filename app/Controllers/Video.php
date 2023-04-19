@@ -2,18 +2,19 @@
 
 namespace App\Controllers;
 
-class Services extends BaseController
+class Video extends BaseController
 {
     public function index()
     {
         helper('html');
         $data = [
             'meta' => [
-                'title' => 'Наш сервис',
+                'title' => 'Видео',
                 'description' => 'Аренда катамарана Lagoon 380 в Киеве, организация отдыха, корпоративы, девичники, свадьбы, фотосессии',
-                'tags' => 'отдых, корпоративы, девичники, свадьбы, фотосессии, катамаран, яхта, Киев, река',
+                'tags' => 'отдых, корпоративы, девичники, свадьбы, видео, катамаран, яхта, Киев, река',
             ]
         ];
-        return view('services', $data);
+
+        return view('video', $data);
     }
 }
