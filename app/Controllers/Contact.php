@@ -6,10 +6,10 @@ class Contact extends BaseController
 {
     public function index()
     {
-        helper('html');
+        helper(['html', 'form']);
         $data = [
             'meta' => [
-                'title' => 'Головна',
+                'title' => 'Контакти',
                 'description' => '',
                 'tags' => '',
             ]
