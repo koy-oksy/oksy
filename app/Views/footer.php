@@ -6,7 +6,7 @@
                 <p>Додаткові посиланння на соціальні мережі </p>
                 <ul class="list-unstyled social">
                     <li><a href="https://www.facebook.com/people/Oxy_smm/100090936235182/?notif_id=1681380612211212&notif_t=page_user_activity&ref=notif" target="_blank"><span class="icon-facebook"></span></a></li>
-                    <li><a href="https://www.instagram.com/oxy_kravchuk_smm/" target="_blank"><span class="icon-instagram"></span></a></li>
+                    <li><a href="https://www.instagram.com/oxy_kravchuk/" target="_blank"><span class="icon-instagram"></span></a></li>
                     <li><a href="#"><span class="icon-twitter"></span></a></li>
                     <li><a href="#"><span class="icon-linkedin"></span></a></li>
                 </ul>

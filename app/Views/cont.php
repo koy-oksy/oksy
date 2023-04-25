@@ -1,25 +1,22 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html>
 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
 
 <body>
 
+    <div class="container">
+        <h2>Повідомлення відправлено</h2>
+        <p>Найближчим часом буде надіслана відповідь.</p>
+        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="blank">Повернутись назад</button>
 
-    <?= view('menu') ?>
-
-
-    <div class="site-section-cover overlay" style="background-image: url('assets/images/office.jpg');">
-
-        <div class="container">
-            <div class="row align-items-center justify-content-center">
-                <div class="col-lg-10 text-center">
-                    <h1><strong>Сайт для бізнесу</strong></h1>
-                </div>
-            </div>
-        </div>
     </div>
 
-    <?= view('footer') ?>
 </body>
 
 </html>

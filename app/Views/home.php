@@ -11,221 +11,77 @@
 
     <div class="container">
       <div class="row align-items-center justify-content-center">
-        <div class="col-lg-10 text-center">
+        <div class="col-sm-10 text-center">
           <h1><strong>CТВОРЕННЯ І РОЗРОБКА САЙТІВ</strong></h1>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="site-section bg-light pb-0">
-    <div class="container">
-      <div class="row align-items-stretch overlap">
-        <div class="col-lg-8">
-          <div class="box h-100">
-            <div class="d-flex align-items-center">
-              <div class="img"><img src="<?php echo base_url('assets/images/img_1.jpg') ?>" class="img-fluid" alt="Image"></div>
-              <div class="text">
-                <a href="" class="category">Послуга</a>
-                <h3>Розробка сайтів</h3>
-                <p>Звернувшись до Oksy, ви отримуєте якісні послуги із створення сайту на замовлення: збір вимог і обговорення, планування та структурування, дизайн,
-                  розробка, тестування, запуск та оптимізація, підтримка та обслуговування.</p>
-                <p class="mb-0">
-                  <span class="brand-react h5"></span>
-                  <span class="brand-javascript h5"></span>
-                </p>
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="box small h-100">
-            <div class="d-flex align-items-center mb-2">
-
-              <div class="img"><img src="<?php echo base_url('assets/images/planning.jpg') ?>" class="img-fluid" alt="Image"></div>
-              <div class="text">
-                <a href="https://redstone.media/plan-rozrobky-saytu" target="_blank" class="category">Планування</a>
-                <h3><a href="">Встановлення конкретної та досяжної мети, яку ви хочете досягти.</a></h3>
-              </div>
-            </div>
-            <div class="d-flex align-items-center mb-2">
-
-              <div class="img"><img src="<?php echo base_url('assets/images/design.jpg') ?>" class="img-fluid" alt="Image"></div>
-              <div class="text">
-                <a href="https://adsense.google.com/intl/uk_ua/start/resources/best-format-your-site-for-adsense/" target="_blank" class="category">Дизайн</a>
-                <h3><a href="">Дизайн — це не лише те, як він виглядає та відчувається.</a></h3>
-              </div>
-            </div>
-            <div class="d-flex align-items-center">
-              <div class="img"><img src="<?php echo base_url('assets/images/img_4.jpg') ?>" class="img-fluid" alt="Image"></div>
-              <div class="text">
-                <a href="https://support.google.com/google-ads/answer/2404033?hl=uk" target="_blank" class="category">Тестування</a>
-                <h3><a href="">Тестування дозволяє виявити та виправити проблеми та забезпечити якість та безпеку сайту.</a></h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="site-section">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="heading mb-4">
-            <span class="caption">Tutorial Courses</span>
-            <h2>Використані інструменти</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row align-items-stretch">
-        <div class="col-lg-2">
-          <a href="#" class="course">
-            <span class="wrap-icon brand-adobeillustrator"></span>
-            <h3>Illustrator</h3>
-          </a>
-        </div>
-        <div class="col-lg-2">
-          <a href="#" class="course">
-            <span class="wrap-icon brand-adobephotoshop"></span>
-            <h3>Photoshop</h3>
-          </a>
-        </div>
-
-        <div class="col-lg-2">
-          <a href="#" class="course">
-            <span class="wrap-icon brand-angular"></span>
-            <h3>Angular</h3>
-          </a>
-        </div>
-
-        <div class="col-lg-2">
-          <a href="#" class="course">
-            <span class="wrap-icon brand-javascript"></span>
-            <h3>JavaScript</h3>
-          </a>
-        </div>
-        <div class="col-lg-2">
-          <a href="#" class="course">
-            <span class="wrap-icon brand-react"></span>
-            <h3>React</h3>
-          </a>
-        </div>
-        <div class="col-lg-2">
-          <a href="#" class="course">
-            <span class="wrap-icon brand-vue-dot-js"></span>
-            <h3>Vue</h3>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
   <div class="site-section bg-light">
     <div class="container">
       <div class="row">
-        <div class="col-12">
-          <div class="heading mb-4">
-            <span class="caption">Корисне</span>
-            <h2>Переваги замовлення сайту в Oksy:</h2>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <h2 class="text-primary">Розробка сайтів</h2>
+          <p>Звернувшись до Oksy, ви отримуєте якісні послуги із створення сайту на замовлення: збір вимог і обговорення, планування та структурування, дизайн,
+            розробка, тестування, запуск та оптимізація, підтримка та обслуговування.</p>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="post-entry-1 h-100">
+            <img src="<?php echo base_url('assets/images/programming.jpg') ?>" alt="Image" class="img-fluid">
           </div>
         </div>
-        <div class="col-lg-8">
-
-
-
-          <div class="d-flex tutorial-item mb-4">
-            <div class="img-wrap">
-              <a href="#"><img src="<?php echo base_url('assets/images/img_1.jpg') ?>" alt="Image" class="img-fluid"></a>
-            </div>
-            <div>
-              <h3><a href="">Адаптацію до будь-якого хостингу з підтримкою PHP.</a></h3>
-              <p>В Україні найчастіше використовують Хостінг Центр.
-                Завдяки хмарним рішенням саме цей хостинг розподіляє навантаження на сервера хостингу завдяки чому всі сайти працюють швидко.
-              </p>
-
-              <p class="mb-0">
-                <span class="brand-react h5"></span>
-                <span class="brand-javascript h5"></span>
-              </p>
-
-              <p><a href="https://www.ukraine.com.ua/" target="_blank" class="btn btn-primary custom-btn">Сайт хостингу</a></p>
-            </div>
-          </div>
-
-          <div class="d-flex tutorial-item mb-4">
-            <div class="img-wrap">
-              <a href="#"><img src="<?php echo base_url('assets/images/vremya.png') ?>" alt="Image" class="img-fluid"></a>
-            </div>
-            <div>
-              <h3><a href="">Економія часу</a></h3>
-              <p>Замовлення сайту може допомогти вам зекономити час,
-                оскільки вам не доведеться вчитися у веб-розробці та дизайні, щоб створити власний сайт.
-                Ви зможете сконцентруватися на своєму бізнесі та інших аспектах діяльності,
-                в той час як Вам створять професійний та ефективний сайт.</p>
-              <p class="mb-0">
-                <span class="brand-angular h5"></span>
-                <span class="brand-javascript h5"></span>
-              </p>
-
-              <p><a href="<?php echo site_url('portfolio') ?>" target="_blank" class="btn btn-primary custom-btn">Порфоліо</a></p>
-            </div>
-          </div>
-
-          <div class="d-flex tutorial-item mb-4">
-            <div class="img-wrap">
-              <a href="#"><img src="<?php echo base_url('assets/images/adaptability.jpg') ?>" alt="Image" class="img-fluid"></a>
-            </div>
-            <div>
-              <h3><a href="">Придатність для мобільних пристроїв</a></h3>
-              <p>Cайт, який добре працює на різних пристроях та з різними розмірами екрану. Це особливо важливо в наші дні,
-                коли все більше людей використовують мобільні пристрої для доступу до Інтернету.</p>
-              <p class="mb-0">
-                <span class="brand-adobephotoshop h5"></span>
-              </p>
-              <p><a href="https://support.google.com/google-ads/answer/2472719?hl=uk" target="_blank" class="btn btn-primary custom-btn">Детальніше</a></p>
-            </div>
-          </div>
-
-          <div class="d-flex tutorial-item mb-4">
-            <div class="img-wrap">
-              <a href="#"><img src="<?php echo base_url('assets/images/img_4.jpg') ?>" alt="Image" class="img-fluid"></a>
-            </div>
-            <div>
-              <h3><a href="">Захист сайту</a></h3>
-              <p>Коли користувач взаємодіє зі сторінкою сайту, що використовує SSL, його браузер запитує сервер про SSL-сертифікат. Якщо сервер має дійсний SSL-сертифікат, то він передає його користувачеві, і браузер показує, що сторінка захищена.</p>
-              <p class="mb-0">
-                <span class="brand-adobeillustrator h5"></span>
-              </p>
-              <p><a href="https://www.ukraine.com.ua/uk/blog/seo-optimization/chto-takoe-https-i-zachem-on-nuzhen-kazhdomu-sajtu.html" target="_blank" class="btn btn-primary custom-btn">Використання https</a></p>
-            </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="post-entry-1 h-100">
+            <h4 class="text-primary">Переваги замовлення сайту в Oksy:</h4>
+            <h6><strong>Економія часу</strong></h6>
+            <p>Замовлення сайту може допомогти вам зекономити час,
+              оскільки вам не доведеться вчитися у веб-розробці та дизайні, щоб створити власний сайт.</p>
+            <a href="<?php echo site_url('portfolio') ?>" target="_blank" class="btn btn-outline-primary">Портфоліо</a>
           </div>
         </div>
-
-
-        <div class="col-lg-4">
-          <div class="box-side mb-3">
-            <a href="#"><img src="<?php echo base_url('assets/images/business.jpg') ?>" alt="Image" class="img-fluid"></a>
-            <h3><a href="<?php echo site_url('business') ?>">Сайт і бізнес</a></h3>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="post-entry-1 h-100">
+            <h6 class=""><strong>Адаптацію до будь-якого хостингу.</strong></h6>
+            <p>В Україні найчастіше використовують Хостінг Центр.
+              Завдяки хмарним рішенням саме цей хостинг розподіляє навантаження на сервера хостингу завдяки чому всі сайти працюють швидко.
+            </p>
+            <p><a href="https://www.ukraine.com.ua/" target="_blank" class="btn btn-outline-primary">Сайт хостингу</a></p>
           </div>
-          <div class=" box-side mb-3">
-            <a href="#"><img src="<?php echo base_url('assets/images/img_2_horizontal.jpg') ?>" alt="Image" class="img-fluid"></a>
-            <h3><a href="#">Learning React Native</a></h3>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="post-entry-1 h-100">
+            <h6 class=""><strong>Придатність для мобільних пристроїв</strong></h6>
+            <p>Cайт, який добре працює на різних пристроях та з різними розмірами екрану. Це особливо важливо в наші дні,
+              коли все більше людей використовують мобільні пристрої для доступу до Інтернету.
+            </p>
+            <a href="https://support.google.com/google-ads/answer/2472719?hl=uk" target="_blank" class="btn btn-outline-primary">Детальніше</a>
           </div>
-          <div class="box-side">
-            <a href="#"><img src="<?php echo base_url('assets/images/img_3_horizontal.jpg') ?>" alt="Image" class="img-fluid"></a>
-            <h3><a href="#">Learning React Native</a></h3>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="post-entry-1 h-100">
+            <h6 class=""><strong>Захист сайту</strong></h6>
+            <p>Коли користувач взаємодіє зі сторінкою сайту, що використовує SSL, його браузер запитує сервер про SSL-сертифікат.
+              Якщо сервер має дійсний SSL-сертифікат, то він передає його користувачеві, і браузер показує, що сторінка захищена.</p>
+            <a href="https://www.ukraine.com.ua/uk/blog/seo-optimization/chto-takoe-https-i-zachem-on-nuzhen-kazhdomu-sajtu.html" target="_blank" class="btn btn-outline-primary">Використання https</a>
           </div>
         </div>
       </div>
     </div>
   </div>
-
+  <div class="site-section bg-primary py-5 cta">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7 mb-4 mb-md-0">
+          <h2 class="mb-0 text-white">Досі думаєш?</h2>
+          <p class="mb-0 opa-7">Замовляй безкоштовну консультацію, отримай надійний сайт!</p>
+        </div>
+        <div class="col-lg-5 text-md-right">
+          <a href="tel:+38 (063) 786-25-04" class="btn btn-primary btn-white">Замовити консультацію</a>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="site-section bg-light">
     <div class="container">
       <div class="row justify-content-center">
