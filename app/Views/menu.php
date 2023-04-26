@@ -25,11 +25,11 @@
 
                     <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                         <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                            <li><a href="<?php echo site_url('home') ?>">Головна</a></li>
+                            <li><a href="<?php echo site_url('about') ?>">Головна</a></li>
                             <li><a href="<?php echo site_url('services') ?>">Послуги</a></li>
                             <li><a href="<?php echo site_url('portfolio') ?>">Портфоліо</a></li>
                             <li><a href="<?php echo site_url('contact') ?>">Контакти</a></li>
-                            <li><a href="<?php echo site_url('blog') ?>">Блог</a></li>
+
                         </ul>
                     </nav>
                 </div>

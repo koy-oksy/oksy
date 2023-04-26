@@ -7,50 +7,35 @@
                 <ul class="list-unstyled social">
                     <li><a href="https://www.facebook.com/people/Oxy_smm/100090936235182/?notif_id=1681380612211212&notif_t=page_user_activity&ref=notif" target="_blank"><span class="icon-facebook"></span></a></li>
                     <li><a href="https://www.instagram.com/oxy_kravchuk/" target="_blank"><span class="icon-instagram"></span></a></li>
-                    <li><a href="#"><span class="icon-twitter"></span></a></li>
-                    <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                    <li><a href="tel:+38 (063) 786-25-04"><span class="icon-telegram"></span></a></li>
                 </ul>
             </div>
             <div class="col-lg-8 ml-auto">
                 <div class="row">
                     <div class="col-lg-3">
-                        <h2 class="footer-heading mb-4">Quick Links</h2>
+                        <h2 class="footer-heading mb-4">Послуги</h2>
                         <ul class="list-unstyled">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                            <li><a href="#">Terms of Service</a></li>
-                            <li><a href="#">Privacy</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="<?php echo site_url('portfolio') ?>">Портфоліо</a></li>
+                            <li><a href="<?php echo site_url('services') ?>">Послуги</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3">
-                        <h2 class="footer-heading mb-4">Resources</h2>
+                        <h2 class="footer-heading mb-4">Корисне</h2>
                         <ul class="list-unstyled">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                            <li><a href="#">Terms of Service</a></li>
-                            <li><a href="#">Privacy</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="https://support.google.com/google-ads/answer/2472719?hl=uk">Адаптивність</a></li>
+                            <li><a href="https://www.ukraine.com.ua/uk/blog/seo-optimization/chto-takoe-https-i-zachem-on-nuzhen-kazhdomu-sajtu.html">Захист сайту</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3">
-                        <h2 class="footer-heading mb-4">Support</h2>
+                        <h2 class="footer-heading mb-4">Корисне</h2>
                         <ul class="list-unstyled">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                            <li><a href="#">Terms of Service</a></li>
-                            <li><a href="#">Privacy</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="https://pagespeed.web.dev/">Швидкість сайту</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3">
-                        <h2 class="footer-heading mb-4">Company</h2>
+                        <h2 class="footer-heading mb-4">Контакти</h2>
                         <ul class="list-unstyled">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                            <li><a href="#">Terms of Service</a></li>
-                            <li><a href="#">Privacy</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="<a href=" <?php echo site_url('contact') ?>">Контакти</a></li>
                         </ul>
                     </div>
                 </div>
@@ -58,7 +43,6 @@
         </div>
     </div>
 </footer>
-
 
 
 <script src="<?php echo base_url('assets/js/jquery-3.3.1.min.js') ?>"></script>
