@@ -1,4 +1,4 @@
-User-agent: * 
+User-agent: Googlebot
 Disallow: 
-Host: sailing-adventure.com.ua
-Sitemap: https://sailing-adventure.com.ua/sitemap.xml
+Host: oksy.org.ua
+Sitemap: https://oksy.org.ua/sitemap.xml

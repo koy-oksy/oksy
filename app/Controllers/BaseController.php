@@ -46,6 +46,9 @@ class BaseController extends Controller
         parent::initController($request, $response, $logger);
 
         // Preload any models, libraries, etc, here.
+        $session = \Config\Services::session();
+        $language = \Config\Services::language();
+        $language->setLocale($session->lang);
 
         // E.g.: $this->session = \Config\Services::session();
     }

@@ -15,7 +15,7 @@
 
                 <div class="col-3">
                     <div class="site-logo">
-                        <a href="<?php echo site_url('home') ?>"><strong>Оksy</strong></a>
+                        <a href="<?php echo site_url('about') ?>"><strong>Оksy</strong></a>
                     </div>
                 </div>
 
