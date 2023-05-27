@@ -5,7 +5,6 @@
 
 <body>
 
-
   <?= view('menu') ?>
 
 

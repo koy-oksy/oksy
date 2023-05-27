@@ -29,13 +29,9 @@
                             <li><a href="<?php echo site_url('services') ?>">Послуги</a></li>
                             <li><a href="<?php echo site_url('portfolio') ?>">Портфоліо</a></li>
                             <li><a href="<?php echo site_url('contact') ?>">Контакти</a></li>
-
                         </ul>
                     </nav>
                 </div>
-
-
             </div>
         </div>
-
     </header>

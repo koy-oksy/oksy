@@ -10,7 +10,6 @@
 
 
   <div class="site-section-cover overlay" style="background-image: url('assets/images/hero_bg.jpg');">
-
     <div class="container">
       <div class="row align-items-center justify-content-center">
         <div class="col-lg-10 text-center">
@@ -19,7 +18,6 @@
       </div>
     </div>
   </div>
-
 
   <div class="site-section">
     <div class="container">
@@ -108,9 +106,6 @@
       </div>
     </div>
   </div>
-
-
-
   </div>
 
   <?= view('footer') ?>
